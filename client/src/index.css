@@ -8,7 +8,13 @@
   --text-home-heading-small: 28px;
   --text-home-heading-large: 48px;
   --text-default: 15px;
+  --grid-cols-auto: repeat(auto-fit,minmax(200px, 1fr));
 }
+
+.grid-cols-auto{
+  grid-template-columns: var(--grid-cols-auto);
+}
+
 *{
   font-family: Outfit;
 }
