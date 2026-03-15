@@ -101,7 +101,6 @@ export const dummyEducatorData = {
   __v: 0,
 };
 
-
 export const dummyTestimonial = [
   {
     name: "Donald Jackman",
@@ -648,5 +647,134 @@ export const dummyCourses = [
     updatedAt: "2024-12-31T09:57:48.992Z",
     __v: 3,
     courseThumbnail: "https://img.youtube.com/vi/vmEHCJofslg/maxresdefault.jpg",
+  },
+  {
+    _id: "605c72efb3f1c2b1f8e4e1b1",
+    courseTitle: "Mobile App Development with Flutter",
+    courseDescription:
+      "<h2>Build Cross-Platform Mobile Applications</h2><p>This course teaches how to develop high-performance mobile applications using Flutter and Dart. You will learn how to design responsive UI components and manage application state efficiently.</p><p>By the end of the course, you will be able to build fully functional Android and iOS apps from a single codebase.</p><ul><li>Understand Flutter architecture</li><li>Design responsive mobile interfaces</li><li>Build and deploy mobile apps</li></ul>",
+    coursePrice: 79.99,
+    isPublished: true,
+    discount: 20,
+    courseContent: [
+      {
+        chapterId: "chapter1",
+        chapterOrder: 1,
+        chapterTitle: "Flutter Fundamentals",
+        chapterContent: [
+          {
+            lectureId: "lecture1",
+            lectureTitle: "Introduction to Flutter Framework",
+            lectureDuration: 22,
+            lectureUrl: "https://youtu.be/VPvVD8t02U8",
+            isPreviewFree: true,
+            lectureOrder: 1,
+          },
+          {
+            lectureId: "lecture2",
+            lectureTitle: "Setting Up Flutter Development Environment",
+            lectureDuration: 25,
+            lectureUrl: "https://youtu.be/x0uinJvhNxI",
+            isPreviewFree: false,
+            lectureOrder: 2,
+          },
+        ],
+      },
+      {
+        chapterId: "chapter2",
+        chapterOrder: 2,
+        chapterTitle: "Building Mobile Interfaces",
+        chapterContent: [
+          {
+            lectureId: "lecture3",
+            lectureTitle: "Creating Layouts and Widgets",
+            lectureDuration: 20,
+            lectureUrl: "https://youtu.be/1gDhl4leEzA",
+            isPreviewFree: true,
+            lectureOrder: 1,
+          },
+          {
+            lectureId: "lecture4",
+            lectureTitle: "Managing App State in Flutter",
+            lectureDuration: 24,
+            lectureUrl: "https://youtu.be/d_m5csmrf7I",
+            isPreviewFree: false,
+            lectureOrder: 2,
+          },
+        ],
+      },
+    ],
+    educator: "675ac1512100b91a6d9b8b24",
+    enrolledStudents: ["user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V"],
+    courseRatings: [],
+    createdAt: "2025-01-05T08:00:00.000Z",
+    updatedAt: "2025-01-05T08:00:00.000Z",
+    __v: 0,
+    courseThumbnail: "https://img.youtube.com/vi/VPvVD8t02U8/maxresdefault.jpg",
+  },
+
+  {
+    _id: "605c72efb3f1c2b1f8e4e1b2",
+    courseTitle: "System Design for Scalable Applications",
+    courseDescription:
+      "<h2>Design Large Scale Software Systems</h2><p>This course introduces the principles of designing scalable and reliable software systems used in modern tech companies.</p><p>You will learn how distributed systems work, how databases scale, and how architects design systems capable of handling millions of users.</p><ul><li>Understand distributed architecture</li><li>Design scalable backend systems</li><li>Learn caching and load balancing strategies</li></ul>",
+    coursePrice: 89.99,
+    isPublished: true,
+    discount: 25,
+    courseContent: [
+      {
+        chapterId: "chapter1",
+        chapterOrder: 1,
+        chapterTitle: "System Design Basics",
+        chapterContent: [
+          {
+            lectureId: "lecture1",
+            lectureTitle: "Introduction to Scalable Architecture",
+            lectureDuration: 18,
+            lectureUrl: "https://youtu.be/bUHFg8CZFws",
+            isPreviewFree: true,
+            lectureOrder: 1,
+          },
+          {
+            lectureId: "lecture2",
+            lectureTitle: "Understanding Load Balancing",
+            lectureDuration: 21,
+            lectureUrl: "https://youtu.be/K0Ta65OqQkY",
+            isPreviewFree: false,
+            lectureOrder: 2,
+          },
+        ],
+      },
+      {
+        chapterId: "chapter2",
+        chapterOrder: 2,
+        chapterTitle: "Scaling Applications",
+        chapterContent: [
+          {
+            lectureId: "lecture3",
+            lectureTitle: "Database Scaling Techniques",
+            lectureDuration: 23,
+            lectureUrl: "https://youtu.be/q0KGYwNbf-0",
+            isPreviewFree: true,
+            lectureOrder: 1,
+          },
+          {
+            lectureId: "lecture4",
+            lectureTitle: "Caching and Performance Optimization",
+            lectureDuration: 19,
+            lectureUrl: "https://youtu.be/2LaAJq1lB1Q",
+            isPreviewFree: false,
+            lectureOrder: 2,
+          },
+        ],
+      },
+    ],
+    educator: "675ac1512100b91a6d9b8b24",
+    enrolledStudents: ["user_2qjlgkAqIMpiR2flWIRzvWKtE0w"],
+    courseRatings: [],
+    createdAt: "2025-01-10T09:00:00.000Z",
+    updatedAt: "2025-01-10T09:00:00.000Z",
+    __v: 0,
+    courseThumbnail: "https://img.youtube.com/vi/bUHFg8CZFws/maxresdefault.jpg",
   },
 ];
